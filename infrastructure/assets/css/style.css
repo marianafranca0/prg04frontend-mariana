@@ -1,8 +1,15 @@
 body {
-  background-color: whitesmoke;
+  background-color: #ffff;
 }
+
 h1,
-h2 {
+h2,
+h3 {
   font-family: cursive;
-  color: rgb(168, 123, 211);
+  color: #a788ab;
+}
+
+img {
+  width: 300px;
+  height: auto;
 }
