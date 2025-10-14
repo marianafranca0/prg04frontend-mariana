@@ -1,5 +1,5 @@
 body {
-  background-color: #ffff;
+  background-color: #ffe5f0;
 }
 
 h1,
@@ -12,4 +12,44 @@ h3 {
 img {
   width: 300px;
   height: auto;
+}
+
+/* Estilização da página principal do projeto */
+
+nav#menu {
+  display: block;
+  text-align: center;
+  padding: 10px 0;
+}
+
+nav#menu ul {
+  list-style: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin: 0 auto;
+  padding: 0;
+  display: inline-block;
+  width: 100%;
+  max-width: 800px;
+}
+
+nav#menu li {
+  display: inline-block;
+  background-color: #fffafa;
+  padding: 10px 15px;
+  margin: 2px;
+  transition: background-color 1s;
+  border: 1px solid #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+nav#menu li:hover {
+  background-color: #ffe5f0;
+}
+
+nav#menu a {
+  text-decoration: none;
+  color: #333333;
+  font-family: monospace;
 }
