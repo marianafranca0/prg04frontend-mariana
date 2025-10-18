@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Página de Login</title>
+    <link rel="stylesheet" href="../assets/css/style.css" />
+  </head>
+  <body>
+    <!-- Formulário de Login -->
+    <div class="form-container">
+      <h1>Formulário de Login</h1>
+      <form action="login.html" method="post">
+        <label for="usuario">Usuário:</label>
+        <input
+          type="text"
+          id="usuario"
+          name="usuario"
+          required
+          placeholder="Digite seu nome de usuario"
+        />
+
+        <label for="password">Senha:</label>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          minlength="8"
+          maxlength="10"
+          placeholder="Digite sua senha"
+        />
+
+        <input type="submit" value="Enviar" />
+        <input type="reset" value="Limpar" />
+      </form>
+    </div>
+  </body>
+</html>
